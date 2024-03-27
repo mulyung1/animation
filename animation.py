@@ -9,6 +9,8 @@ import plotly.express as px
 df=px.data.gapminder()
 #initialise the app
 app=Dash(__name__)
+
+server=app.server
 colors={
     'background':'#111111',
     'text':'#7FDBFF'
